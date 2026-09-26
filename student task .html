@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Main heading -->
+    <h1>Student Task Manager</h1>
+
+
+    <!-- Student name section -->
+    <section>
+
+        <h2>Student Information</h2>
+
+        <!-- Input for student name -->
+        <input
+            type="text"
+            id="nameInput"
+            placeholder="Enter your name"
+        >
+
+        <button id="nameButton">
+            Save Name
+        </button>
+
+        <p id="welcomeMessage"></p>
+
+    </section>
+
+
+    <!-- Task section -->
+    <section>
+
+        <h2>My Tasks</h2>
+
+        <!-- Input for new task -->
+        <input
+            type="text"
+            id="taskInput"
+            placeholder="Enter a task"
+        >
+
+        <!-- Add task button -->
+        <button id="addButton">
+            Add Task
+        </button>
+
+        <!-- Clear all button -->
+        <button id="clearButton">
+            Clear All
+        </button>
+
+    </section>
+
+
+    <!-- Task counter -->
+    <p id="taskCounter">
+        Total Tasks: 0
+    </p>
+
+
+    <!-- Tasks will appear here -->
+    <ul id="taskList"></ul>
+
+
+    <!-- Connect JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
